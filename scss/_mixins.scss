@@ -32,3 +32,14 @@
 }
 
 // list by default padding and margin loss styles ended
+
+// nailing to correct the upper and lower margins of the headings started
+
+@mixin h-m-control ($top, $bottom) {
+  margin: {
+    top: $top;
+    bottom: $bottom;
+  }
+}
+
+// nailing to correct the upper and lower margins of the headings ended
