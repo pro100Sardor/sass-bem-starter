@@ -55,6 +55,9 @@ margin: {
 
 // nailing to correct the top and bottom margins of the headings ended
 
+
+// media to adapt the background image to retinal screens started
+
 @mixin bg-retina {
   @media
     only screen and (-webkit-min-device-pixel-ratio: 2),
@@ -63,6 +66,8 @@ margin: {
     only screen and (        min-device-pixel-ratio: 2),
     only screen and (                min-resolution: 192dpi),
     only screen and (                min-resolution: 2dppx) {
-
+      @content;
   }
 }
+
+// media to adapt the background image to retinal screens ended
